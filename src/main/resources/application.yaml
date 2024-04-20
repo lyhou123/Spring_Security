@@ -1,0 +1,17 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: practice spring security
+  datasource:
+    username: postgres
+    password: lyhou123
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/security1
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update # or update
+    generate-ddl: true
+
+
